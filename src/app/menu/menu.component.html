@@ -1,0 +1,350 @@
+<router-outlet></router-outlet>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Muruga Bhavan</title>  
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="/assets/css/style.css">    
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+</head>
+
+<body>
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<div class="collapse navbar-collapse" id="navbars-rs-food">
+					<a class="navbar-brand" routerLink="/home">
+						<img src="/assets/images/logo.png" alt="" />
+					</a>
+					<a class="navbar-brand" routerLink="/home">
+						<img src="/assets/images/logo1.png" alt="" />
+					</a>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item "><a class="nav-link" routerLink="/home">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="#"></a></li>
+						<li class="nav-item active"><a class="nav-link" routerLink="/menu">Menu</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+    <div class="all-page-title page-breadcrumb">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>Menu</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="menu-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="heading-title text-center">
+						<h2>Special Menu</h2>
+						<p>Popular and Signature of Muruga Bhavan</p>
+					</div>
+				</div>
+			</div>
+
+            <div class="row special-list">
+				<div class="col-lg-4 col-md-6 special-grid drinks">
+					<div class="gallery-single fix">
+						<img src="/assets/images/img-01.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Special Drinks</h4>
+							<p>Long Island Iced Tea</p>
+							<h5> $7.79</h5>
+						</div>
+					</div>
+                    <div class="special-menu text-center">
+						<div class="button-group filter-button-group">
+                            <button class="active" type="button" (click)="alert()">Add to cart</button>
+                        </div>
+                    </div>
+				</div>
+				
+				<div class="col-lg-4 col-md-6 special-grid lunch">
+					<div class="gallery-single fix">
+						<img src="/assets/images/img-04.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Special Lunch</h4>
+							<p>Portobello Mushroom Burgers</p>
+							<h5> $15.79</h5>
+						</div>
+					</div>
+                    <div class="special-menu text-center">
+						<div class="button-group filter-button-group">
+                            <button class="active" type="button" (click)="alert()">Add to cart</button>
+                        </div>
+                    </div>
+				</div>
+
+                <div class="col-lg-4 col-md-6 special-grid dinner">
+					<div class="gallery-single fix">
+						<img src="/assets/images/img-08.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<h4>Special Dinner</h4>
+							<p>Grilled Chicken Escalope with Fresh Salsa</p>
+							<h5> $22.79</h5>
+						</div>
+					</div>
+                    <div class="special-menu text-center">
+						<div class="button-group filter-button-group">
+                            <button class="active" type="button" (click)="alert()">Add to cart</button>
+                        </div>
+                    </div>
+				</div>
+				
+				
+            </div>
+
+			<div class="heading-title text-center">
+				<h2>Menu</h2>
+			</div>
+				
+			<div class="special-menu text-center">
+                <div class="heading-title text-center">
+					<h2>Breakfast</h2>
+				</div>
+            </div>
+            <div class="row special-list">
+				<div class="col-lg-4 col-md-6 special-grid drinks">
+					<div class="gallery-single fix">
+						<img src="/assets/images/img-06.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<p>Garlic-Lemon Pork</p>
+							<h5> $7.79</h5>
+						</div>
+					</div>
+					<div class="special-menu text-center">
+						<div class="button-group filter-button-group">
+                            <button class="active" type="button" (click)="alert()">Add to cart</button>
+                        </div>
+                    </div>
+						 
+                    
+				</div>
+                <div class="col-lg-4 col-md-6 special-grid drinks">
+					<div class="gallery-single fix">
+						<img src="/assets/images/img-07.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<p>Rich chocolate torte</p>
+							<h5> $8.05</h5>
+						</div>
+					</div>
+                    <div class="special-menu text-center">
+						<div class="button-group filter-button-group">
+                            <button class="active" type="button" (click)="alert()">Add to cart</button>
+                        </div>
+                    </div>
+				</div>
+                <div class="col-lg-4 col-md-6 special-grid drinks">
+					<div class="gallery-single fix">
+						<img src="/assets/images/img-04.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<p>Portobello Mushroom Burgers</p>
+							<h5> $23.3</h5>
+						</div>
+					</div>
+                    <div class="special-menu text-center">
+						<div class="button-group filter-button-group">
+                            <button class="active" type="button" (click)="alert()">Add to cart</button>
+                        </div>
+                    </div>
+				</div>
+            </div>
+
+                <div class="special-menu text-center">
+                    <div class="heading-title text-center">
+						<h2>Lunch</h2>
+					</div>
+                </div>
+                <div class="row special-list">
+                <div class="col-lg-4 col-md-6 special-grid drinks">
+					<div class="gallery-single fix">
+						<img src="/assets/images/gallery-img-04.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<p>Prawn Briyani</p>
+							<h5> $7.79</h5>
+						</div>
+					</div>
+                    <div class="special-menu text-center">
+						<div class="button-group filter-button-group">
+                            <button class="active" type="button" (click)="alert()">Add to cart</button>
+                        </div>
+                    </div>
+				</div>
+                <div class="col-lg-4 col-md-6 special-grid drinks">
+					<div class="gallery-single fix">
+						<img src="/assets/images/gallery-img-05.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<p>Basic Sausage Burritos.</p>
+							<h5> $8.05</h5>
+						</div>
+					</div>
+                    <div class="special-menu text-center">
+						<div class="button-group filter-button-group">
+                            <button class="active" type="button" (click)="alert()">Add to cart</button>
+                        </div>
+                    </div>
+				</div>
+                <div class="col-lg-4 col-md-6 special-grid drinks">
+					<div class="gallery-single fix">
+						<img src="/assets/images/gallery-img-06.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<p>Cinnamon apple pancakes</p>
+							<h5> $11.3</h5>
+						</div>
+					</div>
+                    <div class="special-menu text-center">
+						<div class="button-group filter-button-group">
+                            <button class="active" type="button" (click)="alert()">Add to cart</button>
+                        </div>
+                    </div>
+				</div>
+                </div>
+
+                <div class="special-menu text-center">
+                    <div class="heading-title text-center">
+						<h2>Dinner</h2>
+					</div>
+                </div>
+                <div class="row special-list">
+				<div class="col-lg-4 col-md-6 special-grid drinks">
+					<div class="gallery-single fix">
+						<img src="/assets/images/img-08.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<p>Grilled Chicken Escalope with Fresh Salsa</p>
+							<h5> $11.3</h5>
+						</div>
+					</div>
+                    <div class="special-menu text-center">
+						<div class="button-group filter-button-group">
+                            <button class="active" type="button" (click)="alert()">Add to cart</button>
+                        </div>
+                    </div>
+				</div>
+                <div class="col-lg-4 col-md-6 special-grid drinks">
+					<div class="gallery-single fix">
+						<img src="/assets/images/img-05.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<p> Pina Colada Pork Ribs</p>
+							<h5> $24.7</h5>
+						</div>
+					</div>
+                    <div class="special-menu text-center">
+						<div class="button-group filter-button-group">
+                            <button class="active" type="button" (click)="alert()">Add to cart</button>
+                        </div>
+                    </div>
+				</div>
+                <div class="col-lg-4 col-md-6 special-grid drinks">
+					<div class="gallery-single fix">
+						<img src="/assets/images/img-09.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<p>Grilled Lamb Chops</p>
+							<h5> $26.3</h5>
+						</div>
+					</div>
+                    <div class="special-menu text-center">
+						<div class="button-group filter-button-group">
+                            <button class="active" type="button" (click)="alert()">Add to cart</button>
+                        </div>
+                    </div>
+				</div>
+                </div>
+
+                <div class="special-menu text-center">
+                    <div class="heading-title text-center">
+						<h2>Drinks</h2>
+					</div>
+                </div>
+
+            <div class="row special-list">
+                <div class="col-lg-4 col-md-6 special-grid drinks">
+					<div class="gallery-single fix">
+						<img src="/assets/images/img-01.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<p>Long Island Iced Tea</p>
+							<h5> $5.3</h5>
+						</div>
+					</div>
+                    <div class="special-menu text-center">
+						<div class="button-group filter-button-group">
+                            <button class="active" type="button" (click)="alert()">Add to cart</button>
+                        </div>
+                    </div>
+				</div>
+                <div class="col-lg-4 col-md-6 special-grid drinks">
+					<div class="gallery-single fix">
+						<img src="/assets/images/img-02.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<p>Watermelon Limeade Cocktails</p>
+							<h5> $6.7</h5>
+						</div>
+					</div>
+                    <div class="special-menu text-center">
+						<div class="button-group filter-button-group">
+                            <button class="active" type="button" (click)="alert()">Add to cart</button>
+                        </div>
+                    </div>
+				</div>
+                <div class="col-lg-4 col-md-6 special-grid drinks">
+					<div class="gallery-single fix">
+						<img src="/assets/images/img-03.jpg" class="img-fluid" alt="Image">
+						<div class="why-text">
+							<p>Margarita</p>
+							<h5> $4.9</h5>
+						</div>
+					</div>
+                    <div class="special-menu text-center">
+						<div class="button-group filter-button-group">
+                            <button class="active" type="button" (click)="alert()">Add to cart</button>
+                        </div>
+                    </div>
+				</div>
+            </div>
+		</div>
+	</div>
+	
+	<footer class="footer-area bg-f">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<h3>About Us</h3>
+					<p>Muruga Bhavan, one of the best restaurant in Chennai and one of its best known landmarks, presents a rich fusion of South Indian design and classic elegance. </p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Opening hours</h3>
+					<p><span class="text-color">Monday: </span>Closed</p>
+					<p><span class="text-color">Tue-Wed :</span> 9:Am - 10PM</p>
+					<p><span class="text-color">Thu-Fri :</span> 9:Am - 10PM</p>
+					<p><span class="text-color">Sat-Sun :</span> 5:PM - 10PM</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Contact information</h3>
+					<p class="lead">SRS Complex, Steel Plant Rd, Chennai, Tamil Nadu 636005</p>
+					<p class="lead"><a href="#">099949 94459</a></p>
+					<p><a href="#"> murugabhavan@gmail.com</a></p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Subscribe</h3>
+					<div class="subscribe_form">
+						<form class="subscribe_form">
+							<input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email">
+							<button type="submit" class="submit">SUBSCRIBE</button>
+							<div class="clearfix"></div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>	
+</body>
